@@ -1,0 +1,191 @@
+body{
+   margin: 0;
+   padding: 0px;
+   background: url(image/coding-924920_1280.jpg);
+   background-size: cover;
+   font-family: sans-serif;
+}
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+.navbar{
+    background: #152327;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+.navbar .container-fluid .navbar-header a{
+    color:white;
+}
+/* .navbar .container-fluid .collapse .navbar-nav{
+    margin-left: 30%;
+} */
+.navbar .container-fluid .collapse ul li a{
+    color:white;
+    background: none;
+    text-align: center;
+}
+.navbar .container-fluid .collapse ul li {
+    padding-left: 10px;
+}
+.navbar .container-fluid .collapse ul li a:hover{
+    background:none;
+}
+.navbar .container-fluid .collapse .navbar-right a{
+    border: 1px solid white;
+    border-radius: 28px;
+    padding-left: 10px;
+}
+
+
+/* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+.sign{
+    /* width: 500px; */
+/*     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    /* position: absolute; */
+    background: #152327;
+    padding: 40px;
+}
+.sign h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+.sign input[type="text"], .sign input[type="email"], .sign input[type="password"]{
+    display: block;
+    padding: 12px 10px;
+    margin: 25px auto; 
+    /* width: 280px; */
+    border: 0;
+    background: none;
+    border: 2px solid darkorange;
+    border-radius: 30px;
+    outline: none;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    transition: all 1s;
+
+}
+.sign input[type="text"]:focus, .sign input[type="email"]:focus, .sign input[type="password"]:focus{
+    /* width: 360px; */
+    border: 2px solid rgb(20, 80, 50);
+    border-color:rgb(20, 80, 50);
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.sign input[type="reset"]{
+    display: inline-block;
+    padding: 4px 4px; 
+    float: left;
+    /* margin: 25px auto;  */
+    width: 150px;
+    border: none;
+    background: none;
+    border: 2px solid rgb(20, 80, 50);
+    border-radius: 30px;
+    outline: none;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+.sign input[type="submit"]{
+    display: inline-block;
+    padding: 4px 4px; 
+    float: right;  
+    /* margin: 25px auto;    */
+    width: 150px;
+    border: none;
+    background: none;
+    border: 2px solid darkorange;
+    border-radius: 30px;
+    outline: none;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+.sign input[type="reset"]:hover{
+    background: rgb(20, 80, 50);
+}
+.sign  input[type="submit"]:hover{
+    background: darkorange;
+}
+
+/* @media (max-width: 600px){
+    .sign{
+       width: 500px; 
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+        position: absolute;
+        background: #152327;
+        padding: 40px;
+    }
+    .sign h1{
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+    }
+    .sign input[type="text"], .sign input[type="email"], .sign input[type="password"]{
+        display: block;
+        padding: 12px 10px;
+        margin: 25px auto; 
+       width: 280px; 
+        border: none;
+        background: none;
+        border: 2px solid darkorange;
+        border-radius: 30px;
+        outline: none;
+        text-align: center;
+        color: white;
+        font-size: 14px;
+        transition: all 1s;
+    
+    }
+    .sign input[type="text"]:focus, .sign input[type="email"]:focus, .sign input[type="password"]:focus{
+        width: 360px; 
+        border: 2px solid rgb(20, 80, 50);
+        border-color:rgb(20, 80, 50);
+    }
+    .sign input[type="reset"]{
+        display: inline-block;
+        padding: 12px 15px;
+        float: left;
+        margin: 25px auto; 
+        width: 150px;
+        border: none;
+        background: none;
+        border: 2px solid rgb(20, 80, 50);
+        border-radius: 30px;
+        outline: none;
+        text-align: center;
+        color: white;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    .sign  input[type="submit"]{
+        display: inline-block;
+        padding: 12px 15px;
+        float: right;  
+        margin: 25px auto;   
+     width: 150px; 
+        border: none;
+        background: none;
+        border: 2px solid darkorange;
+        border-radius: 30px;
+        outline: none;
+        text-align: center;
+        color: white;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    .sign  input[type="reset"]:hover{
+        background: rgb(20, 80, 50);
+    }
+    .sign input[type="submit"]:hover{
+        background: darkorange;
+    }
+} */
